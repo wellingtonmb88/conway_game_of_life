@@ -1,0 +1,26 @@
+{
+  "name": "careernowbrands",
+  "version": "1.0.0",
+  "description": "Challenge Conway's Game Of Life",
+  "main": "Conway_Game_Of_Life.js",
+  "scripts": {
+    "start-game": "node ./src/start-game.js",
+    "test": "mocha ./__test__",
+    "test-coverage": "nyc --reporter=text mocha ./__test__"
+  },
+  "keywords": [
+    "challenge",
+    "conway",
+    "'game",
+    "life"
+  ],
+  "author": "Wellington M. Barbosa",
+  "license": "ISC",
+  "dependencies": {
+    "drawille": "^1.1.0"
+  },
+  "devDependencies": {
+    "nyc": "^13.0.1",
+    "mocha": "^5.2.0"
+  }
+}
